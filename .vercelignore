@@ -1,0 +1,11 @@
+node_modules
+.env*
+.eve
+.next
+.output
+.nitro
+dist
+# Demo requests recorded locally by the agent (personal data)
+.data
+# Salesforce metadata, deployed to the org with the sf CLI
+salesforce

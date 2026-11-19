@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Reference__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Reference code the LINE agent gives the customer for a demo request (DEMO-XXXXXX). Unique, so a replayed request cannot create a second Lead.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>เลขอ้างอิงที่บอท LINE แจ้งลูกค้าตอนรับนัดเดโม</inlineHelpText>
+    <label>Demo Reference</label>
+    <length>20</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

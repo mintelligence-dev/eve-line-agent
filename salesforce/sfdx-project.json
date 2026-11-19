@@ -1,0 +1,12 @@
+{
+  "name": "m-intel-line-agent-salesforce",
+  "packageDirectories": [{ "path": "force-app", "default": true }],
+  "sourceApiVersion": "64.0",
+  "replacements": [
+    {
+      "glob": "force-app/main/default/extlClntAppOauthPolicies/*.ecaOauthPlcy-meta.xml",
+      "stringToReplace": "__RUN_AS_USERNAME__",
+      "replaceWithEnv": "SF_RUN_AS_USERNAME"
+    }
+  ]
+}
